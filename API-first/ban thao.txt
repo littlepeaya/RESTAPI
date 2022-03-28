@@ -1,0 +1,19 @@
+RESTFUL API:
+
+-Hiểu đơn giản thì các ứng dụng RESTful sử dụng các yêu cầu HTTP để thực hiện bốn hoạt động được gọi là CRUD (C: Create, R: Read, U: Update, và D: Delete).
+
++TẠO PACKAGE.JSON: package.json là một tệp cung cấp thông tin cần thiết cho npm, cho phép nó xác định dự án cũng như xử lý các phụ thuộc của dự án.
++server.js:các giao thức để tạo một app mới.
++ folder controllers: gồm :
+		file controller, 
+		file routes.js để quản lý các link API và
+		 file db.js để kết nối database.
++express sẽ được sử dụng để tạo máy chủ
++nodemon sẽ giúp mình theo dõi các thay đổi đối với ứng dụng của mình bằng cách xem các tệp đã thay đổi và tự động khởi động lại máy chủ.
++dotenv để mình thêm các config cho database(host, port, user, pass, ...) và các config khác
++mysql để thao tác với database
++body-parser để trích xuất toàn bộ phần nội dung của request đến và hiển thị nó trên đó req.body.
++load dotenv để sử dụng environment variables
++import file routes để load tất cả routes đã được khai báo trong file
+
+	
